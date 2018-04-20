@@ -1,0 +1,53 @@
+@keyframes left_to_right{
+	1%{left:1px;opacity:0.3;}
+	50%{opacity:0.5;}
+	100%{left:120%;opacity:0;}
+}
+
+@keyframes xoay{
+	1%{transform: rotateY(180deg);}
+}
+
+@keyframes around_up{
+	1%{top:0px;left:0px;opacity:0;z-index:1;}
+	10%{top:0px;left:0px;opacity:0.3;z-index:1;}
+	50%{top:100%;left:-1px;opacity:0.5;z-index:1;}
+	51%{top:100%;left:-1px;opacity:0.7;z-index:0;}
+	100%{top:-5px;left:-2px;opacity:1;z-index:0;}
+}
+
+@keyframes around_down{
+	1%{bottom:0px;right:0px;opacity:0;z-index:1;}
+	10%{bottom:0px;right:0px;opacity:0.3;z-index:1;}
+	50%{bottom:100%;right:-1px;opacity:0.5;z-index:1;}
+	51%{bottom:100%;right:-1px;opacity:0.7;z-index:0;}
+	100%{bottom:-5px;right:-2px;opacity:1;z-index:0;}
+}
+
+@keyframes curly_up{
+	1%{top:50%;transform:translate(0,-50%);left:10px;opacity:1;z-index:1;}
+	6%{left:8%;opacity:1;z-index:0;}
+	12%{top:-10px;left:20%;opacity:1;z-index:0;}	
+	24%{left:25%;opacity:1;z-index:0;}	
+	37%{top:calc(100% + 10px);left:40%;opacity:1;z-index:0;}
+	38%{top:calc(100% + 10px);left:40%;opacity:1;z-index:1;}
+	47%{left:45%;opacity:1;z-index:1;}
+	57%{top:-10px;left:60%;opacity:1;z-index:1;}
+	58%{top:-10px;left:60%;opacity:1;z-index:0;}
+	64%{left:75%;opacity:1;z-index:0;}
+	77%{top:calc(100% + 10px);left:80%;opacity:1;z-index:0;}
+	88%{left:95%;opacity:1;z-index:0;}
+	100%{top:50%;transform:translate(0,-50%);left:100%;opacity:1;z-index:0;}
+	
+	
+}
+
+@keyframes around_down{
+	1%{bottom:0px;right:0px;opacity:0;z-index:1;}
+	10%{bottom:0px;right:0px;opacity:0.3;z-index:1;}
+	50%{bottom:100%;right:-1px;opacity:0.5;z-index:1;}
+	51%{bottom:100%;right:-1px;opacity:0.7;z-index:0;}
+	100%{bottom:-5px;right:-2px;opacity:1;z-index:0;}
+}
+
+
